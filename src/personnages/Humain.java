@@ -57,7 +57,7 @@ public class Humain {
 		argent -= perte;
 	}
 	
-	private void parler(String texte)
+	protected void parler(String texte)
 	{
 		System.out.println(texte);
 	}
