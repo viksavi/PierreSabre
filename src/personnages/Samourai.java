@@ -9,6 +9,11 @@ public class Samourai extends Ronin{
 		this.seigneur = seigneur;
 	}
 	
+	protected String getSeigneur()
+	{
+		return seigneur;
+	}
+	
 	@Override
 	public void direBonjour()
 	{
