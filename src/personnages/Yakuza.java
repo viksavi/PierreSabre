@@ -45,4 +45,12 @@ public class Yakuza extends Humain{
 		texte += "Je l'ai dépouillé de ses " + gain + " sous.";
 		parler(texte);
 	}
+	
+	@Override
+	public void direBonjour()
+	{
+		String result = "Bonjour! Je m’appelle " + this.getNom() + " et j’aime boire du " + this.getBoissonFavorite();
+		result += "\nMon clan est celui de " + clan;
+		parler(result);
+	}
 }

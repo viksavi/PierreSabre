@@ -20,6 +20,11 @@ public class Humain {
 		return argent;
 	}
 	
+	protected String getBoissonFavorite()
+	{
+		return boissonFavorite;
+	}
+	
 	public void direBonjour()
 	{
 		String result = "Bonjour! Je m’appelle " + nom + " et j’aime boire du " + boissonFavorite;
