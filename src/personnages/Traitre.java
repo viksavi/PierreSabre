@@ -39,6 +39,7 @@ public class Traitre extends Samourai{
 		else
 		{
 			this.parler("Mince je ne peux plus rançonner personne sinon un samouraï risque de me démasquer !");
+			
 		}
 	}
 	

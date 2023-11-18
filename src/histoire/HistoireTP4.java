@@ -5,6 +5,7 @@ import personnages.Samourai;
 import personnages.Traitre;
 import personnages.Commercant;
 import personnages.Yakuza;
+import personnages.GrandMere;
 
 public class HistoireTP4 {
 
@@ -38,6 +39,16 @@ public class HistoireTP4 {
 		masako.faireConnasainceAvec(yaku);
 		masako.faireLeGentil();
 		masako.faireConnasainceAvec(roro);
+		
+		GrandMere grandMere = new GrandMere("Grand-Mère", 10);
+		grandMere.faireConnasainceAvec(akimoto);
+		grandMere.faireConnasainceAvec(yaku);
+		grandMere.faireConnasainceAvec(masako);
+		grandMere.faireConnasainceAvec(kumi);
+		grandMere.faireConnasainceAvec(marco);
+		grandMere.faireConnasainceAvec(chonin);
+		grandMere.ragoter();
+
 	}
 
 }

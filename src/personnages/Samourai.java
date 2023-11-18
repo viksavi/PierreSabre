@@ -26,5 +26,6 @@ public class Samourai extends Ronin{
 	{
 		String texte = "Qu'est-ce que je vais choisir comme boisson ? Tiens je vais prendre du " + boisson;
 		parler(texte);
+		
 	}
 }

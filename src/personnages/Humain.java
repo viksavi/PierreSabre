@@ -74,7 +74,7 @@ public class Humain {
 		humain.direBonjour();
 	}
 	
-	private void memoriser(Humain humain)
+	protected void memoriser(Humain humain)
 	{
 		if(nbConnasaince < this.memoire.length)
 		{
